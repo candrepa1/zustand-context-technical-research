@@ -60,7 +60,8 @@ The result is fewer unnecessary re-renders and a simpler app structure.
 ### Summary
 While both Context and Zustand can handle this type of state management, Zustand provides:
 
-A simpler component tree with less boilerplate
-More precise rendering behavior
-Better performance scalability
+- A simpler component tree with less boilerplate
+- More precise rendering behavior
+- Better performance scalability
+
 Context is still a valid option, but requires additional effort—like splitting contexts, memoizing values, or using selector utilities—to achieve similar performance characteristics.
